@@ -288,6 +288,7 @@ export default function Home() {
             interval="5000"
             transitionTime="5000"
             infiniteLoop
+            showThumbs={false}
           >
             <blockquote className="xl:lg:px-40 md:px-20 sm:px-14 px-9 xl:lg:text-xl md:text-lg sm:text-base text-sm text-center py-10 italic border-l-4 border-gray-500 bg-gray-100">
               &quot;{jsonData.testimonial.text}&quot;
